@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #100645 !important;
+position: relative;
+}
+header{
+  background-color:#2d28eb;
+  height: 230px;
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  border-radius: 0  0 20px 20px;
+  margin-bottom: 50px;
+}
+.wrap{
+  gap: 10px;
+}
+.day-card{
+  background-color: #2e6754;
+  border-radius: 20px;
+  width: calc(12.5% - 10px);
+  aspect-ratio: 1 / 1; 
+  min-width: 130px;
+  min-height: 130px;
+  padding: 10px;
+  
+}
+.wrap .day-card:last-of-type {
+  background-color: #d4d6f5;
+  flex-basis: 100%;
+  color: #2e6754;  
+  aspect-ratio: auto; 
+  margin:20px 0;
+}
+.blur{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.2);
+  position:fixed;
+  z-index: 99;
+  top:0;
+  backdrop-filter: blur(6px);
+}
+.clicked{
+  background-color: #100645 !important;
+}
+.popup{
+  z-index: 999;
+  background-color: #e78ab6;
+  width:500px;
+  height: 350px;
+  border-radius: 20px;
+}
+.popup img{
+  max-height: 250px;
+}
+
