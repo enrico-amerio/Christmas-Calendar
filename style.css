@@ -47,6 +47,7 @@ header{
 }
 .clicked{
   background-color: #100645 !important;
+  pointer-events: none;
 }
 .popup{
   z-index: 999;
