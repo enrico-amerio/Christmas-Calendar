@@ -27,6 +27,7 @@ header{
   min-width: 130px;
   min-height: 130px;
   padding: 10px;
+  color: white;
   
 }
 .wrap .day-card:last-of-type {

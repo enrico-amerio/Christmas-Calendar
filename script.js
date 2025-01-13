@@ -9,7 +9,7 @@ for(let i = 1; i <= 25; i++){
             <div class="icon">
               <img src="images/icons/${source[i-1].icon}.png" alt="img">
             </div>
-            <div class="day-number text-white fs-1 fw-bold">
+            <div class="day-number fs-1 fw-bold">
               ${i}
             </div>
           </div>`
